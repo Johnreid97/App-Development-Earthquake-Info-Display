@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/north_Sort"
+        android:title="North"
+
+        />
+
+    <item
+        android:id="@+id/south_Sort"
+        android:title="South"
+
+        />
+
+    <item
+        android:id="@+id/east_Sort"
+        android:title="East"
+        />
+    <item
+    android:id="@+id/west_Sort"
+    android:title="West"
+    />
+    <item
+        android:id="@+id/location_Sort"
+        android:title="Location"
+        />
+    <item
+        android:id="@+id/depth_Sort"
+        android:title="Depth"
+        />
+    <item
+        android:id="@+id/mag_Sort"
+        android:title="Magnitude"
+        />
+    <item
+        android:id="@+id/month_Sort"
+        android:title="Month"
+        />
+
+
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textbox">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+
+            android:id="@+id/hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textColor="#F9C61D"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/lat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latitude"
+            android:textColor="#F9C61D"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Longitude"
+            android:textColor="#F9C61D"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/depth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Depth:"
+            android:textColor="#F9C61D"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/magnitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Magnitude:"
+            android:textColor="#F9C61D"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+</RelativeLayout>

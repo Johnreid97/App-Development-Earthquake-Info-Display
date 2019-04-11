@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/cardview_dark_background"
+        card_view:contentPadding="10dp">
+
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:background="@drawable/textbox"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:id="@+id/textViewHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heading"
+                android:textAlignment="center"
+
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+                android:textColor="#F9C61D" />
+
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_below="@+id/textViewHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textAlignment="center"
+                android:textColor="#F9C61D" />
+
+
+            <Button
+                android:id="@+id/textViewButton"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_below="@+id/textViewDescription"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="6dp"
+
+                android:background="@drawable/buttonshape"
+                android:text="More Info..."
+                android:textAlignment="center"
+                android:textColor="#F9C61D"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

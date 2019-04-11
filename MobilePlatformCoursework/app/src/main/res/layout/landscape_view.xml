@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLandscape"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/cardview_dark_background"
+
+    android:orientation="horizontal">
+
+        
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/salutation"
+
+            android:textColor="#F9C61D"
+
+
+            />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search_bar">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/acknowledgement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclerView"
+            android:text="Contains British Geological Survey materials ©NERC 2019"
+            android:textColor="#F9C61D"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/sort_Button"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignBottom="@id/search_bar"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/buttonshape"
+            android:src="@drawable/button">
+
+        </ImageButton>
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+
+</RelativeLayout>
+
+
+
+
+
+

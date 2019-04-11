@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:popupMenuStyle"> @style/SortMenuTheme</item>
+        <item name="android:itemBackground"> @drawable/textbox</item>
+        <item name="android:textColor"> #F9C61D</item>
+    </style>
+
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name = "android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="SortMenuTheme" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground"> @drawable/textbox  </item>
+
+
+
+    </style>
+
+</resources>
